@@ -12,7 +12,7 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <div className='link-social-networks'>
           <a rel="noreferrer" href='https://www.github.com/kaenovsky' target='_blank'><Image alt='github' src="/github.svg" width={30} height={30} /></a>
-          <a rel="noreferrer" href='https://www.linkedin.com/martinkaen' target='_blank'><Image alt='linkedin' src="/linkedin.svg" width={30} height={30} /></a>              
+          <a rel="noreferrer" href='https://www.linkedin.com/in/martinkaen' target='_blank'><Image alt='linkedin' src="/linkedin.svg" width={30} height={30} /></a>              
           <a rel="noreferrer" href='https://www.twitter.com/guybrushsays' target='_blank'><Image alt='twitter' src="/twitter.svg" width={30} height={30} /></a>
           <a rel="noreferrer" href='https://medium.com/@mkaen' target='_blank'><Image alt='medium' src="/medium.svg" width={30} height={30} /></a>
           <a rel="noreferrer" href='https://www.instagram.com/guybrushsays' target='_blank'><Image alt='instagram' src="/instagram.svg" width={30} height={30} /></a>
