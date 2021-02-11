@@ -30,3 +30,16 @@ img {
   max-width: 100%;
   display: block;
 }
+
+/* Social networks external links */
+
+.link-social-networks {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-social-networks a {
+  margin: .4em;
+}
