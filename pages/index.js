@@ -18,6 +18,9 @@ export default function Home() {
           <a rel="noreferrer" href='https://www.bandcamp.com/kaenovsky' target='_blank'><Image alt='bandcamp' src="/bandcamp.png" width={30} height={30} /></a>
         </div>
       </section>
+      <section className='emailme'>
+        <p>email me to <a href='mailto:mkaen@vivaldi.net'>mkaen@vivaldi.net</a></p>
+      </section>
     </Layout>
   )
 }
