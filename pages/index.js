@@ -14,12 +14,12 @@ export default function Home() {
           <a rel="noreferrer" href='https://www.github.com/kaenovsky' target='_blank'><Image alt='github' src="/github.svg" width={30} height={30} /></a>
           <a rel="noreferrer" href='https://www.linkedin.com/in/martinkaen' target='_blank'><Image alt='linkedin' src="/linkedin.svg" width={30} height={30} /></a>              
           <a rel="noreferrer" href='https://medium.com/@mkaen' target='_blank'><Image alt='medium' src="/medium.svg" width={30} height={30} /></a>
-          <a rel="noreferrer" href='https://www.twitch.tv/jesuisguybrush' target='_blank'><Image alt='twitch' src="/twitch.svg" width={30} height={30} /></a>
+          <a rel="noreferrer" href='https://www.twitch.tv/jesuisguybrush/clip/SeductiveAttractiveDragonflyMcaT' target='_blank'><Image alt='twitch' src="/twitch.svg" width={30} height={30} /></a>
           <a rel="noreferrer" href='https://www.bandcamp.com/kaenovsky' target='_blank'><Image alt='bandcamp' src="/bandcamp.png" width={30} height={30} /></a>
         </div>
       </section>
       <section className='emailme'>
-        <p>email me to <a href='mailto:mkaen@vivaldi.net'>mkaen@vivaldi.net</a></p>
+        <p>feel free to email me: <a href='mailto:mkaen@vivaldi.net'>mkaen@vivaldi.net</a></p>
       </section>
     </Layout>
   )
