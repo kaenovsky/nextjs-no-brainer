@@ -6,6 +6,7 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  text-align: center;
   background: rgb(238, 174, 202);
   background: -moz-linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
   background: -webkit-linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
@@ -46,11 +47,21 @@ img {
 
 /* emailme section */
 
-.emailme {
-  text-align: center;
-}
-
 .emailme a,
 .emailme a:visited {
   color: #131313;
+}
+
+/* get cv section */
+
+.btn-cv {
+  color: #131313;
+  background: #dddddd;
+  padding: .5rem;
+  border-radius: 4px;
+}
+
+.btn-cv:hover {
+  color: #dddddd;
+  background: #131313;
 }
