@@ -76,7 +76,8 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Inject basepath
-        run: npx next config set basePath /${{ github.repository }}
+        run: |
+          echo "module.exports = { basePath: '/${{ github.repository }}' }" > next.config.js      
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
