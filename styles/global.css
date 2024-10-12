@@ -1,5 +1,6 @@
 html,
 body {
+  color: azure;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
@@ -7,11 +8,10 @@ body {
   line-height: 1.6;
   font-size: 18px;
   text-align: center;
-  background: rgb(238, 174, 202);
-  background: -moz-linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-  background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca", endColorstr="#94bbe9", GradientType=1);
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#434343", endColorstr="#000000", GradientType=1);
 }
 
 * {
@@ -49,15 +49,15 @@ img {
 
 .emailme a,
 .emailme a:visited {
-  color: #131313;
+  color: azure;
 }
 
 /* get cv section */
 
 .btn-cv {
-  color: #131313;
-  background: #dddddd;
-  padding: .5rem;
+  color: #ffffff;
+  background: #3a3939;
+  padding: .4rem;
   border-radius: 4px;
 }
 

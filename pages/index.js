@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       </section>
       <section className='getcv'>
-        <p><a className='btn-cv' target='_blank' href='https://github.com/kaenovsky/kaenovsky/raw/main/resume-mkaen-2023-en.pdf'>click here</a> to get a copy of my CV</p>
+        <p><a className='btn-cv' target='_blank' href='https://github.com/kaenovsky/kaenovsky/blob/main/cv.md'>click here</a> to get a copy of my CV</p>
       </section>
       <section className='emailme'>
         <p>And feel free to email me: <a href='mailto:mkaen@vivaldi.net'>mkaen@vivaldi.net</a></p>
